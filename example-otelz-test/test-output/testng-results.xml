@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-04-01T11:54:06Z" name="FirstTestSuite" finished-at="2019-04-01T11:55:18Z" duration-ms="71728">
+  <suite started-at="2019-04-01T12:12:23Z" name="FirstTestSuite" finished-at="2019-04-01T12:13:35Z" duration-ms="72372">
     <groups>
     </groups>
-    <test started-at="2019-04-01T11:54:06Z" name="bannerTest" finished-at="2019-04-01T11:54:41Z" duration-ms="35402">
+    <test started-at="2019-04-01T12:12:23Z" name="bannerTest" finished-at="2019-04-01T12:12:59Z" duration-ms="35935">
       <class name="com.otelz.bannerTest">
-        <test-method signature="banner1Test()[pri:1, instance:com.otelz.bannerTest@158a8276]" started-at="2019-04-01T11:54:06Z" name="banner1Test" finished-at="2019-04-01T11:54:26Z" duration-ms="19672" status="PASS">
+        <test-method signature="banner1Test()[pri:1, instance:com.otelz.bannerTest@158a8276]" started-at="2019-04-01T12:12:23Z" name="banner1Test" finished-at="2019-04-01T12:12:42Z" duration-ms="19538" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- banner1Test -->
-        <test-method signature="banner2Test()[pri:2, instance:com.otelz.bannerTest@158a8276]" started-at="2019-04-01T11:54:26Z" name="banner2Test" finished-at="2019-04-01T11:54:41Z" duration-ms="15698" status="PASS">
+        <test-method signature="banner2Test()[pri:2, instance:com.otelz.bannerTest@158a8276]" started-at="2019-04-01T12:12:42Z" name="banner2Test" finished-at="2019-04-01T12:12:59Z" duration-ms="16352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- banner2Test -->
       </class> <!-- com.otelz.bannerTest -->
     </test> <!-- bannerTest -->
-    <test started-at="2019-04-01T11:54:42Z" name="logInTest" finished-at="2019-04-01T11:54:58Z" duration-ms="16465">
+    <test started-at="2019-04-01T12:12:59Z" name="logInTest" finished-at="2019-04-01T12:13:15Z" duration-ms="16250">
       <class name="com.otelz.logInTest">
-        <test-method signature="Test()[pri:0, instance:com.otelz.logInTest@6f45df59]" started-at="2019-04-01T11:54:42Z" name="Test" finished-at="2019-04-01T11:54:58Z" duration-ms="16461" status="PASS">
+        <test-method signature="Test()[pri:0, instance:com.otelz.logInTest@6f45df59]" started-at="2019-04-01T12:12:59Z" name="Test" finished-at="2019-04-01T12:13:15Z" duration-ms="16246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
       </class> <!-- com.otelz.logInTest -->
     </test> <!-- logInTest -->
-    <test started-at="2019-04-01T11:54:58Z" name="searchTest" finished-at="2019-04-01T11:55:18Z" duration-ms="19764">
+    <test started-at="2019-04-01T12:13:15Z" name="searchTest" finished-at="2019-04-01T12:13:35Z" duration-ms="20085">
       <class name="com.otelz.searchTest">
-        <test-method signature="Test()[pri:0, instance:com.otelz.searchTest@424e1977]" started-at="2019-04-01T11:54:58Z" name="Test" finished-at="2019-04-01T11:55:18Z" duration-ms="19761" status="PASS">
+        <test-method signature="Test()[pri:0, instance:com.otelz.searchTest@424e1977]" started-at="2019-04-01T12:13:15Z" name="Test" finished-at="2019-04-01T12:13:35Z" duration-ms="20081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
