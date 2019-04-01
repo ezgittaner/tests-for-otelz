@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="FirstTestSuite" verbose="1" >
+  <test name="bannerTest" >
+    <classes>
+       <class name="com.otelz.bannerTest" />
+    </classes>
+  </test>
+ 
+  <test name="logInTest">
+    <classes>
+      <class name="com.otelz.logInTest"/>
+    </classes>
+  </test>
+  
+   <test name="searchTest">
+    <classes>
+      <class name="com.otelz.searchTest"/>
+    </classes>
+  </test>
+</suite>
