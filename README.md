@@ -14,6 +14,10 @@ This project includes <b>four tests</b> for <a href="https://www.otelz.com">otel
      </ul>
      <br />
 The tests are running with <i>testng</i> in Eclipse.
+        <br />
+   Test results;
+      <img src="https://i.hizliresim.com/GmOrmr.png">
+      <img src="https://i.hizliresim.com/y6rO6k.png">
 
      
 
