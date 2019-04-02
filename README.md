@@ -16,7 +16,7 @@ This project includes <b>four tests</b> for <a href="https://www.otelz.com">otel
        
  # Usage
        
-The tests are running with <i>testng</i>.
+The tests are running with <i>testng</i> and <i>maven</i>. For running test <i>maven</i> must be installed on the computer.
         <br />
 Open the folder and run ``` mvn install ``` command on console.
         <br />
