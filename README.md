@@ -22,8 +22,8 @@ Open the folder and run ``` mvn install ``` command on console.
         <br />
 # Test Results
 
-  <img src="https://github.com/ezgittaner/tests-for-otelz/blob/master/Ekran%20Resmi%202019-04-01%2015.15.07.png"/>
-  <img src="https://github.com/ezgittaner/tests-for-otelz/blob/master/Ekran%20Resmi%202019-04-01%2015.15.21.png"/>
+  <img src="https://github.com/ezgittaner/tests-for-otelz/blob/master/otelz-automationtest/TestResults1.png"/>
+  <img src="https://github.com/ezgittaner/tests-for-otelz/blob/master/otelz-automationtest/TestResults2.png"/>
   
 
      
