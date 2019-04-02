@@ -13,11 +13,18 @@ This project includes <b>four tests</b> for <a href="https://www.otelz.com">otel
        <li>searchTest: testing to hotel search page with dates and destination</li>
      </ul>
      <br />
-The tests are running with <i>testng</i> in Eclipse.
+       
+ # Usage
+       
+The tests are running with <i>testng</i> and <i>maven</i>. For running test <i>maven</i> must be installed on the computer.
         <br />
-   Test results;
-      <img src="https://i.hizliresim.com/GmOrmr.png">
-      <img src="https://i.hizliresim.com/y6rO6k.png">
+Open the folder and run ``` mvn install ``` command on console.
+        <br />
+# Test Results
+
+  <img src="https://github.com/ezgittaner/tests-for-otelz/blob/master/Ekran%20Resmi%202019-04-01%2015.15.07.png"/>
+  <img src="https://github.com/ezgittaner/tests-for-otelz/blob/master/Ekran%20Resmi%202019-04-01%2015.15.21.png"/>
+  
 
      
 
