@@ -29,7 +29,7 @@ public class logInTest {
 
 		sleep(4000);
 
-		// click giris yap
+		// click giris yap button
 		WebElement girisYap = driver.findElement(By.className("menu-text"));
 		girisYap.click();
 

@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -29,6 +31,18 @@ public class searchTest {
 
 		sleep(2000);
 
+		// enter placeName
+		WebElement placeName = driver
+				.findElement(By.cssSelector("#searchBoxForm > div.sbc-body > div.form-group > input"));
+		placeName.sendKeys("İzmir");
+		sleep(1000);
+		WebElement select = driver.findElement(
+				By.cssSelector("#searchBoxForm > div.sbc-body > div.form-group > div > div > ul > li:nth-child(1)"));
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.visibilityOf(select));
+
+		select.click();
+
 		// select date
 		WebElement entry1Date = driver.findElement(By.cssSelector(
 				"#searchBoxForm > div.sbc-body > div:nth-child(2) > div:nth-child(1) > div > span.date-input-cont"));
@@ -45,23 +59,10 @@ public class searchTest {
 				"#ui-datepicker-div > div.ui-datepicker-group.ui-datepicker-group-first > table > tbody > tr:nth-child(1) > td:nth-child(7) > a"));
 		exit2Date.click();
 
-		// enter placeName
-		WebElement placeName = driver
-				.findElement(By.cssSelector("#searchBoxForm > div.sbc-body > div.form-group > input"));
-		placeName.sendKeys("izmir");
-
-		sleep(3000);
-
-		// select izmir
-		WebElement select = driver.findElement(By.cssSelector(
-				"#searchBoxForm > div.sbc-body > div.form-group > div > div > ul > li:nth-child(1) > a > span"));
-		select.click();
-
-		sleep(2000);
-
 		// click otel ara button
 		WebElement otelAraButton = driver.findElement(
 				By.cssSelector("#searchBoxForm > div.sbc-body > div:nth-child(5) > div:nth-child(2) > button"));
+
 		otelAraButton.click();
 
 		// new url
