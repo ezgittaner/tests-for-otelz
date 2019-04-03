@@ -35,11 +35,11 @@ public class logInTest {
 
 		// enter username
 		WebElement username = driver.findElement(By.cssSelector("#txtEmail"));
-		username.sendKeys("ezgittaner@gmail.com");
+		username.sendKeys("automaionfortests@gmail.com");
 
 		// enter password
 		WebElement password = driver.findElement(By.cssSelector("#txtSifre"));
-		password.sendKeys("testforotelz");
+		password.sendKeys("testsforotelz");
 
 		// push log in button
 		WebElement logInButton = driver.findElement(By.cssSelector(
