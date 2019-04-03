@@ -48,7 +48,7 @@ public class searchTest {
 				"#searchBoxForm > div.sbc-body > div:nth-child(2) > div:nth-child(1) > div > span.date-input-cont"));
 		entry1Date.click();
 		WebElement entry2Date = driver.findElement(By.cssSelector(
-				"#ui-datepicker-div > div.ui-datepicker-group.ui-datepicker-group-first > table > tbody > tr:nth-child(1) > td:nth-child(4) > a"));
+				"#ui-datepicker-div > div.ui-datepicker-group.ui-datepicker-group-first > table > tbody > tr:nth-child(2) > td:nth-child(3) > a"));
 		entry2Date.click();
 
 		WebElement exit1Date = driver.findElement(By.cssSelector(
@@ -56,7 +56,7 @@ public class searchTest {
 		exit1Date.click();
 
 		WebElement exit2Date = driver.findElement(By.cssSelector(
-				"#ui-datepicker-div > div.ui-datepicker-group.ui-datepicker-group-first > table > tbody > tr:nth-child(1) > td:nth-child(7) > a"));
+				"#ui-datepicker-div > div.ui-datepicker-group.ui-datepicker-group-first > table > tbody > tr:nth-child(2) > td:nth-child(7) > a"));
 		exit2Date.click();
 
 		// click otel ara button
@@ -66,7 +66,7 @@ public class searchTest {
 		otelAraButton.click();
 
 		// new url
-		String expectedUrl = "https://www.otelz.com/search/izmir/IL-8_04.04.2019_07.04.2019_0_1_5-2-0-0-0-0";
+		String expectedUrl = "https://www.otelz.com/search/izmir/IL-8_10.04.2019_14.04.2019_0_1_5-2-0-0-0-0";
 		String actualUrl = driver.getCurrentUrl();
 		Assert.assertEquals(actualUrl, expectedUrl);
 
