@@ -35,7 +35,7 @@ public class searchTest {
 		WebElement placeName = driver
 				.findElement(By.cssSelector("#searchBoxForm > div.sbc-body > div.form-group > input"));
 		placeName.sendKeys("İzmir");
-		sleep(1000);
+		sleep(2000);
 		WebElement select = driver.findElement(
 				By.cssSelector("#searchBoxForm > div.sbc-body > div.form-group > div > div > ul > li:nth-child(1)"));
 		WebDriverWait wait = new WebDriverWait(driver, 10);
@@ -48,7 +48,7 @@ public class searchTest {
 				"#searchBoxForm > div.sbc-body > div:nth-child(2) > div:nth-child(1) > div > span.date-input-cont"));
 		entry1Date.click();
 		WebElement entry2Date = driver.findElement(By.cssSelector(
-				"#ui-datepicker-div > div.ui-datepicker-group.ui-datepicker-group-first > table > tbody > tr:nth-child(2) > td:nth-child(3) > a"));
+				"#ui-datepicker-div > div.ui-datepicker-group.ui-datepicker-group-last > table > tbody > tr:nth-child(4) > td:nth-child(1) > a"));
 		entry2Date.click();
 
 		WebElement exit1Date = driver.findElement(By.cssSelector(
@@ -56,7 +56,7 @@ public class searchTest {
 		exit1Date.click();
 
 		WebElement exit2Date = driver.findElement(By.cssSelector(
-				"#ui-datepicker-div > div.ui-datepicker-group.ui-datepicker-group-first > table > tbody > tr:nth-child(2) > td:nth-child(7) > a"));
+				"#ui-datepicker-div > div.ui-datepicker-group.ui-datepicker-group-first > table > tbody > tr:nth-child(4) > td:nth-child(5) > a"));
 		exit2Date.click();
 
 		// click otel ara button
@@ -66,7 +66,7 @@ public class searchTest {
 		otelAraButton.click();
 
 		// new url
-		String expectedUrl = "https://www.otelz.com/search/izmir/IL-8_10.04.2019_14.04.2019_0_1_5-2-0-0-0-0";
+		String expectedUrl = "https://www.otelz.com/search/izmir/IL-8_20.05.2019_24.05.2019_0_1_5-2-0-0-0-0";
 		String actualUrl = driver.getCurrentUrl();
 		Assert.assertEquals(actualUrl, expectedUrl);
 
